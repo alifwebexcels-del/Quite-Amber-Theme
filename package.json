@@ -1,0 +1,41 @@
+{
+  "name": "quiet-ember-theme",
+  "displayName": "Quiet Ember Sand High Contrast",
+  "description": "A dark, high-contrast theme using a warm sand palette.",
+  "version": "0.1.0",
+  "publisher": "quietember",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alifwebexcels-del/Quite-Amber-Theme"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "high-contrast",
+    "sand",
+    "warm",
+    "material-inspired"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Quiet Ember Sand High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quiet-ember-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.26.1"
+  }
+}
