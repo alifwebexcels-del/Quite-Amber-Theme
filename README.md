@@ -54,3 +54,4 @@ Override any workbench color in your VS Code `settings.json` under `workbench.co
 
 MIT.
 
+https://m.media-amazon.com/images/I/81U+niVRYFL._AC_SX569_.jpg
